@@ -1,10 +1,9 @@
 import Layout from "../../components/Layout"
-
 import "../../Styles/HomeStyle.css";
 import Section1 from "./Section1";
-// import Section2 from "./Section2";
-// import Section3 from "./Section3";
-// import Section4 from "./Section4";
+ import Section2 from "./Section2";
+import Section3 from "./Section3";
+import Section4 from "./Section4";
 // import Section5 from "./Section5";
 // import Section6 from "./Section6";
 // import Section7 from "./section7";
@@ -17,13 +16,13 @@ const Home = () => {
         <Section1 />
 
         {/* Home Section About */}
-        {/* <Section2 /> */}
+        <Section2 />
 
         {/* Home Section Menu */}
-        {/* <Section3 /> */}
+         <Section3 /> 
 
         {/* Home Section Promotion */}
-        {/* <Section4 /> */}
+       <Section4 />
 
         {/* Home Section Shop */}
         {/* <Section5 /> */}

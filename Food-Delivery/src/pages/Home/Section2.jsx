@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Pizza from "../../Food_Assets/assets/about/pizza.png";
@@ -22,7 +21,7 @@ const mockData = [
     title: "Fastest Delivery",
     paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
   },
-  // Add more mock data objects as needed
+  
 ];
 
 function Section2() {

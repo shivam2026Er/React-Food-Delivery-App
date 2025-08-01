@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Image1 from "../../Food_Assets/assets/menu/burger-11.jpg";
 import Image2 from "../../Food_Assets/assets/menu/burger-12.jpg";
@@ -8,7 +7,7 @@ import Image5 from "../../Food_Assets/assets/menu/burger-15.jpg";
 import Image6 from "../../Food_Assets/assets/menu/burger-16.jpg";
 import Image7 from "../../Food_Assets/assets/menu/burger-17.jpg";
 import Image8 from "../../Food_Assets/assets/menu/burger-18.jpg";
-import Cards from "../../components/Layouts/Cards";
+import Cards from "../../components/Cards";
 import { Link } from "react-router-dom";
 
 // Mock Data Cards
@@ -77,7 +76,7 @@ const mockData = [
     rating: 2.0,
     price: 89.12,
   },
-  // Add more mock data objects as needed
+  
 ];
 
 // Rating Logical Data

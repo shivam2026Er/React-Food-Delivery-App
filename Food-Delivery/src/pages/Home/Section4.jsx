@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import PromotionImage from "../../Food_Assets/assets/promotion/pro.png";
 
